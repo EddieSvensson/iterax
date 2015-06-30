@@ -40,7 +40,7 @@ require_once(CORE . 'iteraxcontroller.php');
  *
  * Start the iterax core controller
  *
- * Set the project,controller,method and argsss
+ * Set the project,controller,method and args
  *
  * Include the config file from project folder
  *
