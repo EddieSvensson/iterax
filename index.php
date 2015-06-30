@@ -5,7 +5,7 @@
  * Date: 2015-06-21
  * Time: 03:12
  */
-//testing changing index file
+
 define('START',(float) array_sum(explode(' ',microtime())));
 /**
  *
