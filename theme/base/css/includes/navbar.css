@@ -1,0 +1,128 @@
+/*
+NAVBAR
+
+*/
+
+
+
+
+#navbar {
+    /*display:inline;*/
+    width:100%;
+    margin: 0 auto;
+    background:#000;
+    box-shadow: 3px 3px 3px #333;
+
+}
+ul.navbar {
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+
+    width:917px;
+    list-style-type:none;
+    text-align:center;
+    margin-top:0;
+
+    text-decoration:none;
+}
+ul.navbar li {
+    font-size: 17px;
+    padding:8px 8px;
+    margin:0;
+    display:inline-block;
+    display:inline; /*IE7*/
+    zoom:1; /*IE7*/
+    text-decoration:none;
+    color:#FFF;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    border:5px solid transparent;
+}
+ul.navbar li a {
+    padding:6px 8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+ul.navbar > li:hover {
+    font-size: 17px;
+    border:3px solid #fff;
+    background:#FFF;
+    margin:0;
+    display:inline-block;
+    display:inline; /*IE7*/
+    zoom:1; /*IE7*/
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    color:#000;
+}
+ul.navbar li a:hover {
+    font-size: 17px;
+    color:#000;
+
+}
+ul.navbar > li {
+    display: inline-block;
+    position: relative;
+
+}
+ul.navbar > li ul {
+    z-index:500;
+    display: none;
+    position: absolute;
+    left: -2px;
+    background:#000;
+    color:#fff;
+    border-left: 10px solid #fff;
+    margin-top: -4px;
+}
+
+ul.navbar > li:hover ul {
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    /*
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    */
+    /* Standard syntax */
+    animation-name: fadeInLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    display: block;
+    color:#fff;
+}
+ul.navbar li ul,
+ul.navbar li ul li
+{
+    float:left;
+    white-space: nowrap;
+    padding:0;
+}
+ul.navbar li ul li a:hover {
+    border-radius:5px;
+    color:#fff6bf;
+
+}
+
+/* Vertical Menu */
+ul.navbar > li ul li {
+    display: block;
+}
+/* Horizontal Menu */
+/*
+ul.nav > li ul li {
+    display: inline-block;
+}
+*/
+
+#navbar ul li.selected {
+    background:#FFF;
+    border-radius:5px;
+    color:#000;
+    /*color:rgba(0,0,255,1);
+    border-bottom:2px solid rgba(0,0,255,0.8);
+    */
+}
