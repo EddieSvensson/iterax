@@ -9,7 +9,7 @@
 define('START',(float) array_sum(explode(' ',microtime())));
 /**
  *
- * Creating constants to folders to keep track
+ * Creating constants to folders to keep trackk
  *
  * */
 define('ROOT', __DIR__.'/');
